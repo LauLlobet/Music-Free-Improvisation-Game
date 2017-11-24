@@ -53,7 +53,20 @@ var QueryString = function () {
 }();
 
 
+var team = "u";
 
+function TextChange(event) {
+    var newVal = document.getElementById("myText").value;
+	if(newVal=='a' || 
+	newVal=='e' ||
+	newVal=='i' ||
+	newVal=='o') {
+		team = newVal;
+	}
+	else{
+		document.getElementById("myText").value = "";
+	}
+}
 
 window.onload = function() {
 
@@ -101,15 +114,24 @@ function didntGetStream() {
 var mediaStreamSource = null;
 
 function sendRequest(){
-    var request = new XMLHttpRequest();
-    if(QueryString.s==="l"){
-        request.open( "POST", "http://localhost:8001/", false ); 
-    }else{
-        request.open( "POST", "http://192.168.43.1:8001/", false ); 
-    
+    try {
+        var request = new XMLHttpRequest();
+        request.timeout = 300;
+        if(QueryString.s==="l"){
+            request.open( "POST", "http://localhost:8001/", true ); 
+        }else{
+            request.open( "POST", "http://192.168.43.1:8001/", true ); 
+        
+        }
+        request.send( team+" "+meter.volume );
+        request.responseText
+        request.ontimeout = function (e) {
+            console.log("timeout");
+          };
+          
+    }catch(e){
+        console.log("not working"+ e)
     }
-    request.send( meter.volume );
-    return request.responseText;
 }
 
 

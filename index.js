@@ -26,9 +26,7 @@ client.connect(pdport, '127.0.0.1', function() {
 		  body.push(chunk);
 		}).on('end', function() {
 			body = Buffer.concat(body).toString();
-			// at this point, `body` has the entire request body stored in it as a string
 			console.log(body);
-			console.log('Connected');
 	   		client.write(body+';');
 			response.write('ok');
 			response.end();
