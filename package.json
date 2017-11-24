@@ -1,0 +1,36 @@
+{
+  "name": "pd-and-web-server",
+  "version": "1.0.0",
+  "description": "Intended to be runned in an android (termux) phone in thetering mode it serves a webpage and it unpacks the webpage's http request and re-sends it to [netsend~] and [netreceives~] at a 127.0.0.1 pure data application running at the same phone (http://droidparty.net/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LauLlobet/pd-and-web-server.git"
+  },
+  "keywords": [
+    "pure",
+    "data",
+    "node",
+    "android",
+    "httprequest",
+    "netsend",
+    "netreceive"
+  ],
+  "author": "Lau Llobet",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/LauLlobet/pd-and-web-server/issues"
+  },
+  "homepage": "https://github.com/LauLlobet/pd-and-web-server#readme",
+  "dependencies": {
+    "connect": "^3.6.0",
+    "finalhandler": "^1.0.1",
+    "http": "0.0.0",
+    "net": "^1.0.2",
+    "send": "^0.15.1",
+    "serve-static": "^1.12.1"
+  }
+}

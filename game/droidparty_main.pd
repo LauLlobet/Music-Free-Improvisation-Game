@@ -1,0 +1,17 @@
+#N canvas 473 99 450 300 10;
+#X obj 211 89 vsl 15 128 0 0.05 0 0 empty slider empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 139 106 tgl 40 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#N canvas 175 248 450 300 game_main 0;
+#X obj 246 145 netreceive 8002;
+#X obj 245 190 print;
+#X obj 172 106 vsl 15 128 0 0.05 0 0 slider empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X msg 222 63 2;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 3 0 2 0;
+#X restore 118 60 pd game_main;
+#X obj 153 158 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
