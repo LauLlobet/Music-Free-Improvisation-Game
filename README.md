@@ -1,7 +1,5 @@
 
-# State of the App 
-
-** NOT WORKING YET ** see last section.
+ ** NOT WORKING YET ** see last section.
 
 # Appless Acoustic Jamm Session game using only mobile phones
 
