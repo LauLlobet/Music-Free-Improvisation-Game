@@ -1,6 +1,11 @@
 
  ** NOT WORKING YET ** see last section.
 
+
+![alt text](https://github.com/LauLlobet/Music-Free-Improvisation-Game/raw/master/sampleWorking.gif "")
+
+
+
 # Appless Acoustic Jamm Session game using only mobile phones
 
 Inspired by the acting exercises done by great theater director Peter Brook. This mobile game tries to train musiciant to jamm i  groups in a lively way.
