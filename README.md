@@ -1,7 +1,6 @@
 
  ** NOT WORKING YET ** see last section.
 
-gif ?
 ![alt text](https://github.com/LauLlobet/Music-Free-Improvisation-Game/raw/master/sampleWorking.gif "")
 
 
