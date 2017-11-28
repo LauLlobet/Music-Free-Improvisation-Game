@@ -120,7 +120,7 @@ function sendRequest(){
         if(QueryString.s==="l"){
             request.open( "POST", "http://localhost:8001/", true ); 
         }else{
-            request.open( "POST", "http://192.168.43.1:8001/", true ); 
+            request.open( "POST", "http://192.168.1.1:8001/", true ); 
         
         }
         request.send( team+" "+meter.volume );
