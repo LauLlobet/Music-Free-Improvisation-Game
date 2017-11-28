@@ -5,7 +5,7 @@
 
 Inspired by the acting exercises done by great theater director Peter Brook, this mobile game tries to bring its benefits from acting to the free music improvisation community.
 
-(https://www.youtube.com/watch?v=j0Q7eFj_1bU&feature=youtu.be&t=19m21s "The original version of the game explained by Peter Brook")
+[The original version of the game explained by Peter Brook](https://www.youtube.com/watch?v=j0Q7eFj_1bU&feature=youtu.be&t=19m21s "it's worth seeing")
 
 ## What it does? 
 
@@ -26,8 +26,8 @@ Inspired by the acting exercises done by great theater director Peter Brook, thi
 
 Required in server:
 * Andoid phone, hotspot wifi capable.
-* (https://play.google.com/store/apps/details?id=io.tempage.dorynode "Dory Node Android App")
-* (http://droidparty.net/ "PdDroidParty") 
+* [Dory Node Android App](https://play.google.com/store/apps/details?id=io.tempage.dorynode "Dory Node Android App")
+* [PdDroidParty](http://droidparty.net/ "PdDroidParty") 
 * This repository content placed in the /PdDroidParty folder
 
 Required in players phone
