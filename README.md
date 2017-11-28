@@ -22,7 +22,7 @@ Inspired by the acting exercises done by great theater director Peter Brook. Thi
 6. Director presses the toggle in his app and the game can start.
 
 
-# Technical stuff for developers and directors
+# Technical stuff for developers
 
 Required in server/director phone:
 * Andoid phone, hotspot wifi capable.
@@ -39,7 +39,7 @@ Required in client/players phone:
  * Contact me via PM for them
 
 
-## What does it lacks to be fully functional
+## What does it lack to be fully functional
 
 ### Completely necesary
 * Ssl autosigned certificates on the directors static webpage server in order to allow Microphone use throught html5 on the clients/players.s
